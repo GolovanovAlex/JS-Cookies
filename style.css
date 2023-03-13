@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -14,19 +14,31 @@ body {
   max-width: 1000px;
   left: 0;
   right: 0;
-  bottom: 25px;
+  bottom: -225px;
   width: 100%;
   background-color: #5085a5;
   padding: 25px;
   margin: 0 auto;
   color: #112d32;
+  transition: all 0.3s ease;
+}
+.cookies-box.show {
+  bottom: 25px;
+}
+.cookies__title {
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+}
+.cookies__text {
+  font-size: 12px;
 }
 .cookies__title,
-.cookies__text,
-.cookies__link {
-  margin-bottom: 10px;
+.cookies__text {
+  margin-bottom: 15px;
 }
 .cookies__link {
+  margin-left: 10px;
   display: inline-block;
   color: #8fc1e3;
 }
