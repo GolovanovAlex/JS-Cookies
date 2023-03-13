@@ -3,9 +3,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 body {
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   background-color: #8fc1e3;
 }
@@ -21,9 +21,31 @@ body {
   margin: 0 auto;
   color: #112d32;
 }
-
-button {
-  background-color: #17252a;
-  color: #17252a;
+.cookies__title,
+.cookies__text,
+.cookies__link {
+  margin-bottom: 10px;
+}
+.cookies__link {
+  display: inline-block;
+  color: #8fc1e3;
+}
+.cookies__btn {
+  font-size: 16px;
+  padding: 10px 25px;
+  background-color: #8fc1e3;
+  color: #112d32;
+  border-radius: 3px;
   border: none;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.cookies__btn--accept {
+  margin-right: 15px;
+}
+.cookies__btn:hover {
+  background-color: #31708e;
+}
+.cookies__link:hover {
+  color: #31708e;
 }
