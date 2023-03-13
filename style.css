@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   min-height: 100vh;
-  background-color: #fefefe;
+  background-color: #8fc1e3;
 }
 .cookies-box {
   position: fixed;
@@ -14,7 +16,14 @@ body {
   right: 0;
   bottom: 25px;
   width: 100%;
-  background-color: aquamarine;
+  background-color: #5085a5;
   padding: 25px;
   margin: 0 auto;
+  color: #112d32;
+}
+
+button {
+  background-color: #17252a;
+  color: #17252a;
+  border: none;
 }
